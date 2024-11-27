@@ -1,0 +1,12 @@
+#leetcode 
+876. https://leetcode.com/problems/middle-of-the-linked-list/description/
+141. https://leetcode.com/problems/linked-list-cycle/
+206. https://leetcode.com/problems/reverse-linked-list/
+83. https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+234. https://leetcode.com/problems/palindrome-linked-list/description/
+237. https://leetcode.com/problems/delete-node-in-a-linked-list/
+
+203. https://leetcode.com/problems/remove-linked-list-elements/
+19. https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+2181. https://leetcode.com/problems/merge-nodes-in-between-zeros/
+1721. https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/
