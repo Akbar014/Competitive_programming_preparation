@@ -8,5 +8,10 @@
 
 203. https://leetcode.com/problems/remove-linked-list-elements/
 19. https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+
 2181. https://leetcode.com/problems/merge-nodes-in-between-zeros/
 1721. https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/
+
+
+Top Interview 150
+https://leetcode.com/studyplan/top-interview-150/?utm_source=instabyte.io&utm_medium=newsletter&utm_campaign=day-2-leetcode-cheatcode
