@@ -67,10 +67,12 @@ public:
         }
 
         tmp = head; 
+        
         while (tmp->next != nullptr && tmp->next->val != 0) {
             tmp = tmp->next; 
         }
-        tmp->next = nullptr; 
+
+        tmp->next = nullptr;
         return head;
         
     }

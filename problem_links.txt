@@ -12,6 +12,13 @@
 2181. https://leetcode.com/problems/merge-nodes-in-between-zeros/
 1721. https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/
 
+stack & queue
+225. https://leetcode.com/problems/implement-stack-using-queues/description/
+232. https://leetcode.com/problems/implement-queue-using-stacks/description/
+20. https://leetcode.com/problems/valid-parentheses/
+844. https://leetcode.com/problems/backspace-string-compare/description/
+
+
 
 Top Interview 150
 https://leetcode.com/studyplan/top-interview-150/?utm_source=instabyte.io&utm_medium=newsletter&utm_campaign=day-2-leetcode-cheatcode
