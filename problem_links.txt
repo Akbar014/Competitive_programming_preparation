@@ -13,11 +13,17 @@
 1721. https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/
 
 stack & queue
+leetcode
 225. https://leetcode.com/problems/implement-stack-using-queues/description/
 232. https://leetcode.com/problems/implement-queue-using-stacks/description/
 20. https://leetcode.com/problems/valid-parentheses/
 844. https://leetcode.com/problems/backspace-string-compare/description/
 
+#codeninja
+https://www.naukri.com/code360/problems/insert-an-element-at-its-bottom-in-a-given-stack_1171166?leftPanelTabValue=PROBLEM
+https://www.naukri.com/code360/problems/maximum-equal-stack-sum_1062571
+https://www.naukri.com/code360/problems/reversing-a-queue_982934
+https://www.naukri.com/code360/problems/reverse-stack-using-recursion_631875
 
 
 Top Interview 150
