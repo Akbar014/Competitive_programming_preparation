@@ -26,5 +26,7 @@ https://www.naukri.com/code360/problems/reversing-a-queue_982934
 https://www.naukri.com/code360/problems/reverse-stack-using-recursion_631875
 
 
+https://www.naukri.com/code360/problems/implement-stack-with-linked-list_630475?leftPanelTabValue=PROBLEM
+
 Top Interview 150
 https://leetcode.com/studyplan/top-interview-150/?utm_source=instabyte.io&utm_medium=newsletter&utm_campaign=day-2-leetcode-cheatcode
