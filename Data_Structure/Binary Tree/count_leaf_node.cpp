@@ -12,13 +12,18 @@ class Node{
         }
 };
 
-int count_node(Node* root){
+int count_leaf_node(Node* root){
     if(root==NULL){
         return 0;
     }
-    int l = count_node(root->left);
-    int r = count_node(root->right);
-    return l+r+1;
+    if(root->left ==NULL & root->right==NULL){
+        return 1;
+    }else{
+        int l = count_leaf_node(root->left);
+        int r = count_leaf_node(root->right);
+        return l+r;
+    }
+    
 }
 
 Node* input_tree(){
@@ -87,8 +92,8 @@ void levelorder(Node * root){
 int main(){
 
     Node* root = input_tree();
-    int no_of_node = count_node(root);
-    cout << no_of_node <<  endl;
+    int no_of_leaf_node = count_leaf_node(root);
+    cout << no_of_leaf_node <<  endl;
 
     return 0;
 }

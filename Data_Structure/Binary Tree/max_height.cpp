@@ -12,13 +12,16 @@ class Node{
         }
 };
 
-int count_node(Node* root){
+int max_height(Node* root){
     if(root==NULL){
         return 0;
     }
-    int l = count_node(root->left);
-    int r = count_node(root->right);
-    return l+r+1;
+    
+    int l = max_height(root->left);
+    int r = max_height(root->right);
+    return max(l,r)+1;
+  
+    
 }
 
 Node* input_tree(){
@@ -87,8 +90,8 @@ void levelorder(Node * root){
 int main(){
 
     Node* root = input_tree();
-    int no_of_node = count_node(root);
-    cout << no_of_node <<  endl;
+    int max_height_of_tree = max_height(root);
+    cout << max_height_of_tree <<  endl;
 
     return 0;
 }
