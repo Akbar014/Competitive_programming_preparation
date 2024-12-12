@@ -30,7 +30,6 @@ int main(){
                 r = r-1;
             }
 
-        
         }
 
         if(bool==true) cout << "found" <<  endl;

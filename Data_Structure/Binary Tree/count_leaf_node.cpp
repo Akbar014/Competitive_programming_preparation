@@ -21,9 +21,9 @@ int count_leaf_node(Node* root){
     }else{
         int l = count_leaf_node(root->left);
         int r = count_leaf_node(root->right);
-        return l+r;
-    }
-    
+        return l+r;  
+    }  
+     
 }
 
 Node* input_tree(){
@@ -51,7 +51,7 @@ Node* input_tree(){
         else right = new Node(r);
 
         p->left = left;
-        p->right = right; 
+        p->right = right;  
 
 
         // children queue te push korbo

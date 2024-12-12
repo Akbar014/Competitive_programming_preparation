@@ -1,3 +1,5 @@
+Topics
+Linked list
 #leetcode 
 876. https://leetcode.com/problems/middle-of-the-linked-list/description/
 141. https://leetcode.com/problems/linked-list-cycle/
@@ -24,9 +26,21 @@ https://www.naukri.com/code360/problems/insert-an-element-at-its-bottom-in-a-giv
 https://www.naukri.com/code360/problems/maximum-equal-stack-sum_1062571
 https://www.naukri.com/code360/problems/reversing-a-queue_982934
 https://www.naukri.com/code360/problems/reverse-stack-using-recursion_631875
-
+https://www.naukri.com/code360/problems/min-stack_3843991
 
 https://www.naukri.com/code360/problems/implement-stack-with-linked-list_630475?leftPanelTabValue=PROBLEM
+
+
+Binary Tree
+#codeninja 
+https://www.naukri.com/code360/problems/name_2035933
+https://www.naukri.com/code360/problems/name_2035933
+https://www.naukri.com/code360/problems/inorder-traversal_3839605
+https://www.naukri.com/code360/problems/level-order-traversal_796002
+https://www.naukri.com/code360/problems/count-leaf-nodes_893055?leftPanelTabValue=SUBMISSION
+https://www.naukri.com/code360/problems/left-sum_920380?leftPanelTabValue=SUBMISSION
+https://www.naukri.com/code360/problems/tree-height_4609628?leftPanelTabValue=SUBMISSION
+
 
 Top Interview 150
 https://leetcode.com/studyplan/top-interview-150/?utm_source=instabyte.io&utm_medium=newsletter&utm_campaign=day-2-leetcode-cheatcode
