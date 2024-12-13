@@ -75,6 +75,7 @@ int main(){
         cout << q.front() << endl;
         q.pop();
     }
+    
     // cout << (q.size() > 0 ? q.front() : -1) << endl;
     
     return 0;
