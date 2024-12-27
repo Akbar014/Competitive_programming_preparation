@@ -11,6 +11,9 @@ class Person:
 
 
 p1 = Person('akbar', 28)
+print(p1)
+print(p1.name)
+print(p1.age)
 info = p1.personDetail()
 print(info)
 # p1.name = 'akbar'
