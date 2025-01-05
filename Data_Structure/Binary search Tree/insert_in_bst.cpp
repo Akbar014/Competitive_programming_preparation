@@ -86,14 +86,34 @@ bool search(Node* root, int x){
     
 }
 
+void insert(Node* &root, int val){
+    Node* newNode = new Node(val);
+    if(root==NULL){
+        root = newNode;
+        return;
+    }
+        
+    if(val < root->val)
+        if(root->left==NULL)
+            root->left = newNode;
+        else
+            insert(root->left,val);
+
+    else
+        if(root->right==NULL)
+            root->right = newNode;
+        else
+            insert(root->right, val);
+
+}
+
 int main(){
 
     Node * root = input_tree();
-    // levelorder(root);
-    if(search(root,13))
-        cout << "Foound" << endl;
-    else 
-        cout << "Not Found" << endl;
+    
+    insert(root,16);
+
+    levelorder(root);
 
     return 0;
 

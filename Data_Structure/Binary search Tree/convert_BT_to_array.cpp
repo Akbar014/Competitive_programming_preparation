@@ -85,16 +85,57 @@ bool search(Node* root, int x){
     
     
 }
+Node* convert(int a[], int n, int l, int r){
+    if(l > r) return NULL;
+    int mid = (l+r)/2;
+    Node * root = new Node (a[mid]);
+    Node * leftNode = convert(a, n, l,mid-1);
+    Node * rightNode = convert(a, n, mid+1,r);
+    root->left = leftNode;
+    root->right = rightNode;
+    return root;
+}
+void insert(Node* &root, int val){
+    Node* newNode = new Node(val);
+    if(root==NULL){
+        root = newNode;
+        return;
+    }
+        
+    if(val < root->val)
+        if(root->left==NULL)
+            root->left = newNode;
+        else
+            insert(root->left,val);
+
+    else
+        if(root->right==NULL)
+            root->right = newNode;
+        else
+            insert(root->right, val);
+
+}
 
 int main(){
 
-    Node * root = input_tree();
-    // levelorder(root);
-    if(search(root,13))
-        cout << "Foound" << endl;
-    else 
-        cout << "Not Found" << endl;
+    // Node * root = input_tree();
+    
+    // insert(root,16);
 
+    
+
+    int n;
+    cin >> n;
+    int ar[n];
+
+    for(int i=0; i<n; i++){
+        cin >> ar[i];
+    }
+    
+    Node * root = convert(ar,n,0,n-1);
+
+    levelorder(root);
+    
     return 0;
 
 }
