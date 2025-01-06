@@ -53,6 +53,9 @@ https://www.naukri.com/code360/problems/reverse-level-order-traversal_764339?lef
 //leetcode problems
 https://leetcode.com/problems/root-equals-sum-of-children/description/
 https://leetcode.com/problems/univalued-binary-tree/description/
+https://leetcode.com/problems/leaf-similar-trees/description/
+https://leetcode.com/problems/same-tree/description/
+https://leetcode.com/problems/binary-tree-tilt/
 
 
 
