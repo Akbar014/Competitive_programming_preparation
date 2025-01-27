@@ -18,8 +18,6 @@ int main(){
                 
             else
                 break;
-            
-
             cur_index = parent_index;
 
         }
