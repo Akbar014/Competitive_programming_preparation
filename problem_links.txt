@@ -71,5 +71,12 @@ https://leetcode.com/problems/sort-an-array/submissions/1523246542/
 https://leetcode.com/problems/increasing-order-search-tree/
 https://leetcode.com/problems/minimum-absolute-difference-in-bst/submissions/1529411608/
 
+
+// codeninja problems
+https://www.naukri.com/code360/problems/insert-into-a-binary-search-tree_1279913?leftPanelTabValue=SUBMISSION
+https://www.naukri.com/code360/problems/fourth-largest-element-in-the-array_1792782
+
+
+
 Top Interview 150
 https://leetcode.com/studyplan/top-interview-150/?utm_source=instabyte.io&utm_medium=newsletter&utm_campaign=day-2-leetcode-cheatcode
